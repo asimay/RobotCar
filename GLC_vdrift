@@ -1,0 +1,5 @@
+glc-capture -r 0.5 --fps=10 --disable-audio -s -n -o frames.glc vdrift
+glc-play frames.glc  -y 1 -o - | ffmpeg -y -i - -sameq video.avi
+
+glc-play frames.glc  -y 1 -o - | mencoder - -demuxer y4m -ovc lavc -o video.avi
+

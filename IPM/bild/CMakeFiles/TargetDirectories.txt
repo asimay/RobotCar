@@ -1,0 +1,1 @@
+/home/palehorse/OPENCV/openCV/opencv-2.4.8/samples/gpu/HORIA/IPM/bild/CMakeFiles/ipm.dir
